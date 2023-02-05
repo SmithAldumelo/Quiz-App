@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container{
+   
+    width: 300px;
+    height: 400px;
+    max-width: 100%;
+    background-color:#DEEAEE;
+   
+
+}
+
+h1{
+    background-color: #28BAE9;
+    color: #fff;
+    height: 60px;
+    margin-top: -2rem;
+    text-align: center;
+    padding-top: 10px;
+    
+   
+}
+h2{
+
+ padding: 10px 50px;
+ color: #54c4ec;
+ margin-top: -5px;
+ margin-left: -25px;
+
+ 
+ 
+ 
+ 
+}
+h3{
+    color:  #093444;
+    letter-spacing: 3px;
+    margin-bottom: -15px;
+    font-size: 2rem;
+  
+    
+}
+
+ul{
+    list-style: none;
+    margin-top: 100px;
+    padding: 20px 20px;
+    background-color: #fff;
+    height: 202px;
+    border-radius: 5px;
+}
+ul li label{
+    cursor: pointer;
+}
+
+.questions{
+    background-color: #f2f8f7;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    width: 285px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+button{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #28BAE9;
+    color: #051014;
+    cursor: pointer;
+    outline: none;
+   border: none;
+   height: 50px;
+   width: 300px;
+}
+button:hover{
+    background-color:#166580 ;
+}
